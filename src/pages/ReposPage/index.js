@@ -32,11 +32,11 @@ const Repos = () => {
             data.map((t,i) => (
               <div key={i}>
                   <Link to={`/repos/${userName}/${t.name}`}>
-                  <h1>{t.name}</h1>
+                    <h1>{t.name}</h1>
+                  </Link>
                   <h2>{t.language}</h2>
                   <p>{t.stargazers_count}</p>
                   <p>{t.watchers_count}</p>
-                  </Link>
               </div>
                   ))
           }

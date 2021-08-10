@@ -11,7 +11,7 @@ const App = () => {
                     <Route exact path='/'>
                         <InputPage />
                     </Route>
-                    <Route path='/repos/:userName'>
+                    <Route exact path='/repos/:userName'>
                         <Repos />
                     </Route>
                     <Route path='/repos/:userName/:repoName'>
