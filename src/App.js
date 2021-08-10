@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { InputPage, NotFound } from './src/pages';
+import { InputPage, NotFound } from './pages';
 
 const App = () => {
     return(
