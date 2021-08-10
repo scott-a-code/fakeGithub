@@ -1,3 +1,1 @@
-// export { default as Home } from './Home';
-// export { default as Repos } from './Repos';
-// export { default as Details } from './Details';
+// export { default as AllRepoFetch } from './AllRepoFetch';
