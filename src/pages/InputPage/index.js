@@ -1,14 +1,15 @@
 import axios from 'axios';
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom';
 
 const InputPage = () => {
 
     const [username, setUsername] = useState("");
+    const history = useHistory();
 
     const handleSubmit = (e) =>{
         e.preventDefault();
-        console.log(username);
-        
+        history.push(`/repos/${username}`)
     }
 
     return (
