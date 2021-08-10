@@ -1,11 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { InputPage, NotFound, Repos, Details } from './pages';
+import { Header } from './layout'
 
 const App = () => {
     return(
     <>
-        {/* <Header /> */}
+        <Header />
             <div className="content">
                 <Switch>
                     <Route exact path='/'>
