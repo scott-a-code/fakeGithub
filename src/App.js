@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { InputPage, NotFound } from './pages';
+import { InputPage, NotFound, Repos } from './pages';
 
 const App = () => {
     return(
@@ -11,10 +11,10 @@ const App = () => {
                     <Route exact path='/'>
                         <InputPage />
                     </Route>
-                    {/* <Route path='/repos'>
+                    <Route path='/repos'>
                         <Repos />
                     </Route>
-                    <Route path='/repos/:id'>
+                    {/* <Route path='/repos/:id'>
                         <Details />
                     </Route> */}
                     <Route >
