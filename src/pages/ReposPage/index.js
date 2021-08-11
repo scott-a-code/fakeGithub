@@ -32,7 +32,7 @@ const Repos = () => {
           <h1>{`${userName}'s Repositories`}</h1>
           {
             data.map((t,i) => (
-              <div className="section" key={i}>
+              <div className="container" key={i}>
                   <Link to={`/repos/${userName}/${t.name}`}>
                     <h1>{t.name}</h1>
                   </Link>

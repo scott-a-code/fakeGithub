@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router'
 import axios from 'axios';
+import "./style.css"
 
 const Details = () => {
    
@@ -21,12 +22,13 @@ const Details = () => {
       },[])
 
     return(
-        <div>
-            
+        <div id="repoDetails">
+          <div className="container">
             <h1>{repoData.name}</h1>
-            <h2>{repoData.language}</h2>
-            <p>{repoData.stargazers_count}</p>
-            <p>{repoData.watchers_count}</p>
+            <h2>{`Language: ${repoData.language}`}</h2>
+            <p>{`⭐ Stargazers: ${repoData.stargazers_count}`}</p>
+            <p>{`👀 Watchers: ${repoData.watchers_count}`}</p>
+          </div>
                        
         </div>
     )
