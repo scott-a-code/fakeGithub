@@ -6,14 +6,8 @@ import "./style.css"
 
 const Repos = () => {
 
-    const [ name, setName ] = useState('');
-    const [ language, setLanguage ] = useState('');
-    const [ stargazers_count, setStargazers_count] = useState(0);
-    const [ watchers_count, setWatchers_count] = useState(0);
     const [ data, setData ] = useState([]);
-
     const { userName } = useParams();
-    const { repoName } = useParams();
     
     useEffect( async () => {
       // const { name, language, stargazers_count, watchers_count } 
@@ -29,6 +23,12 @@ const Repos = () => {
 
     return (
         <div id="repoList">
+          {/* {
+            
+            data.map((t) => (
+             <img src={t.owner.avatar_url} alt ="Profile Image" />
+            ))
+          } */}
           <h1>{`${userName}'s Repositories`}</h1>
           {
             data.map((t,i) => (
