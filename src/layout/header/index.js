@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useParams } from 'react-router';
 import './style.css';
+import logo from './GitHub-Mark-Light-64px.png';
 
 const Header = () => {
 
@@ -14,7 +15,7 @@ const Header = () => {
         <header>
             <nav className="navbar">
                 <div id="logo">
-                    <img src="#" alt="Logo" /> 
+                    <img src={logo} alt="Logo" /> 
                 </div>
                 <ul>
                     <li className="nav-item">
