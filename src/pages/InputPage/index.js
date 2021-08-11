@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom';
+import "./style.css"
 
 const InputPage = () => {
 
@@ -13,7 +14,7 @@ const InputPage = () => {
     }
 
     return (
-        <div>
+        <div id="inputContent">
             <h1>Enter Github username below!</h1>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="username">Github username:
