@@ -1,0 +1,39 @@
+
+header{
+    width: 100%;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 8vh;
+    width:100%;
+    font-size: 1.25rem;
+
+    background-color: black;
+    color: white;
+}
+
+.nav-item{
+    display:inline;
+    text-decoration: none;
+    padding: 0px 15px;
+    
+}
+
+.nav-item>a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-item>a:hover{
+    text-decoration: none;
+    color:rgb(133, 133, 195);
+}
+
+.current{
+    color:rgb(133, 133, 195);
+}
