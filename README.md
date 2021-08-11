@@ -1,3 +1,4 @@
+
 # Sammie & Scott Lap 3 24hr challenge
 
 ## Description
@@ -40,3 +41,4 @@ This readme will detail how to set-up and install the application, the technolog
 * invalid username will send user to error page
 
 # Enjoy! 😁
+
