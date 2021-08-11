@@ -28,3 +28,12 @@ header{
     text-decoration: none;
     color:white;
 }
+
+.nav-item>a:hover{
+    text-decoration: none;
+    color:rgb(133, 133, 195);
+}
+
+.current{
+    color:rgb(133, 133, 195);
+}
