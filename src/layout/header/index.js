@@ -17,10 +17,10 @@ const Header = () => {
                     <img src="#" alt="Logo" /> 
                 </div>
                 <ul>
-                    <li className="Nav-item">
+                    <li className="nav-item">
                         <NavLink exact to="/" activeClassName="current">User search</NavLink>
                     </li>
-                    <li className="Nav-item">
+                    <li className="nav-item">
                         <NavLink exact to={userLink} activeClassName="current">Repos</NavLink>
                     </li>
                 </ul>

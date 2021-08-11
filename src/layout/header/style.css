@@ -1,18 +1,19 @@
 
-*{
-    box-sizing: border-box;
+header{
+    width: 100%;
 }
+
 .navbar{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
-    /* height: 10vh; */
-    width:95vw;
+    height: 6vh;
+    width:100%;
 
-    /* background-color: black;
-    color: white; */
+    background-color: black;
+    color: white;
 }
 
 .nav-item{
@@ -22,6 +23,7 @@
     
 }
 
-li.nav-item>a{
+.nav-item>a{
     text-decoration: none;
+    color:white;
 }
