@@ -1,0 +1,27 @@
+
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    /* height: 10vh; */
+    width:95vw;
+
+    /* background-color: black;
+    color: white; */
+}
+
+.nav-item{
+    display:inline;
+    text-decoration: none;
+    padding: 0px 15px;
+    
+}
+
+li.nav-item>a{
+    text-decoration: none;
+}
