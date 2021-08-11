@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import "./style.css"
 
 const Repos = () => {
 
@@ -27,16 +28,14 @@ const Repos = () => {
 
 
     return (
-        <div>
+        <div id="repoList">
+          <h1>{`${userName}'s Repositories`}</h1>
           {
             data.map((t,i) => (
-              <div key={i}>
+              <div className="section" key={i}>
                   <Link to={`/repos/${userName}/${t.name}`}>
                     <h1>{t.name}</h1>
                   </Link>
-                  <h2>{t.language}</h2>
-                  <p>{t.stargazers_count}</p>
-                  <p>{t.watchers_count}</p>
               </div>
                   ))
           }

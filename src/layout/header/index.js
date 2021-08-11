@@ -8,7 +8,7 @@ const Header = () => {
     const { userName } = useParams();
     let userLink;
 
-    userName == undefined ? userLink = "NotFound" : userLink = `/repos/${userName}`;
+    userName == undefined ? userLink = "/NotFound" : userLink = `/repos/${userName}`;
     
     return (
         <header>
